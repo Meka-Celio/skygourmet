@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(240, 238, 230);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Largeur des blocks */
+header,
+section,
+footer {
+  width: 100%;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Blocks du header */
+header div,
+header nav {
+  width: 33.33%;
+}
+
+/* Branding */
+.branding {
+  padding: 5px 25px;
+}
+.branding a {
+  font-size: 50px;
+  color: orangered;
+}
+
+/* Navbar */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+/* Btn Logout */
+.logout {
+  text-align: end;
+  padding: 0 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: rgb(233, 205, 45);
+  border-radius: 10px;
+  box-shadow: 2px 2px 9px 0px #6f6d6d;
+}
+
+section {
+  max-width: 95%;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 45px;
+}
