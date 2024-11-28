@@ -1,26 +1,33 @@
-<?php require_once 'parts/_header.php' ?>
+<?php require_once 'parts/_header.php';
+$categories = getAllCategories();
+?>
 
 <h1>Dashboard</h1>
 
 <h2>Catégories</h2>
+
+<a href="addCategorie.php" class="btn btn-success">Ajouter une categorie</a>
 <table>
     <thead>
         <tr>
             <th>#</th>
             <th>Nom Categorie</th>
-            <th></th>
+            <th>Options</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>1</td>
-            <td>Plat</td>
-            <td>
-                <a href="readCategorie.php?id=1" class="btn btn-info">Consulter</a>
-                <a href="editCategorie.php?id=1" class="btn btn-warning">Modifier</a>
-                <a href="deleteCategorie.php?id=1" class="btn btn-danger">Supprimer</a>
-            </td>
-        </tr>
+        <?php foreach ($categories as $categorie) { ?>
+            <tr>
+                <td><?php echo $categorie['Id'] ?></td>
+                <td><?php echo $categorie['Nom'] ?></td>
+                <td>
+                    <a href="readCategorie.php?id=<?php echo $categorie['Id'] ?>" class="btn btn-info">Consulter</a>
+                    <a href="editCategorie.php?id=<?php echo $categorie['Id'] ?>" class="btn btn-warning">Modifier</a>
+                    <a href="app.deleteCategorie.php?id=<?php echo $categorie['Id'] ?>" class="btn btn-danger">Supprimer</a>
+                </td>
+            </tr>
+        <?php } ?>
+
     </tbody>
 </table>
 

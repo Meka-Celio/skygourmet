@@ -80,13 +80,18 @@ nav ul li {
 }
 
 .btn-warning {
-  background-color: rgb(216, 215, 114);
-  color: #fff;
+  background-color: rgb(222, 221, 49);
+  color: #7b6d21;
 }
 
 .btn-danger {
   background-color: rgb(191, 56, 56);
   color: #fff;
+}
+
+.btn-success {
+  background-color: rgb(9, 88, 16);
+  color: #1bc248;
 }
 
 section {
@@ -118,4 +123,18 @@ table th {
 table td {
   text-align: center;
   padding: 10px 20px;
+}
+
+label {
+  display: block;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  padding: 8px 16px;
 }

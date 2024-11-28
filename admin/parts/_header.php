@@ -1,3 +1,7 @@
+<?php
+require_once 'model.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
