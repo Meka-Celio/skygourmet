@@ -16,9 +16,9 @@
             <td>1</td>
             <td>Plat</td>
             <td>
-                <a href="readCategorie.php?id=1">Consulter</a>
-                <a href="editCategorie.php?id=1">Modifier</a>
-                <a href="deleteCategorie.php?id=1">Supprimer</a>
+                <a href="readCategorie.php?id=1" class="btn btn-info">Consulter</a>
+                <a href="editCategorie.php?id=1" class="btn btn-warning">Modifier</a>
+                <a href="deleteCategorie.php?id=1" class="btn btn-danger">Supprimer</a>
             </td>
         </tr>
     </tbody>
@@ -49,9 +49,9 @@
                 <img src="" alt="image du produit">
             </td>
             <td>
-                <a href="readProduct.php?id=1">Consulter</a>
-                <a href="editProduct.php?id=1">Modifier</a>
-                <a href="deleteProduct.php?id=1">Supprimer</a>
+                <a href="readProduct.php?id=1" class="btn btn-info">Consulter</a>
+                <a href="editProduct.php?id=1" class="btn btn-warning">Modifier</a>
+                <a href="deleteProduct.php?id=1" class="btn btn-danger">Supprimer</a>
             </td>
         </tr>
     </tbody>

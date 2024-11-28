@@ -63,23 +63,59 @@ nav ul li {
 .logout {
   text-align: end;
   padding: 0 30px;
-  line-height: 20px;
 }
 
 .btn {
   display: inline-block;
   padding: 12px 25px;
+  line-height: 20px;
   background-color: rgb(233, 205, 45);
   border-radius: 10px;
   box-shadow: 2px 2px 9px 0px #6f6d6d;
 }
 
+.btn-info {
+  background-color: rgb(67, 160, 172);
+  color: #fff;
+}
+
+.btn-warning {
+  background-color: rgb(216, 215, 114);
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: rgb(191, 56, 56);
+  color: #fff;
+}
+
 section {
   max-width: 95%;
-  border: 1px solid #000;
   margin: 0 auto;
 }
 
 h1 {
   font-size: 45px;
+  line-height: 50px;
+  padding: 15px 0 35px 0;
+}
+
+h2 {
+  padding: 15px 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+}
+
+/* ==================================================== */
+
+table th {
+  background-color: goldenrod;
+  text-align: center;
+  padding: 0 15px;
+}
+
+table td {
+  text-align: center;
+  padding: 10px 20px;
 }
