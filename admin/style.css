@@ -8,6 +8,7 @@ html,
 body {
   height: 100vh;
   width: 100%;
+  line-height: 40px;
 }
 
 body {
@@ -62,6 +63,7 @@ nav ul li {
 .logout {
   text-align: end;
   padding: 0 30px;
+  line-height: 20px;
 }
 
 .btn {
